@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+header {
+    height: 100px;
+    background-color: black;
+}
+main div {
+    background-color: rgb(22, 22, 22);
+    height: 150px;
+    border: 1px solid white;
+}
+
+main h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+}
