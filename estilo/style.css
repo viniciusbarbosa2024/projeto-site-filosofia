@@ -4,14 +4,44 @@
     margin: 0px;
 }
 
+body {
+    background-color: rgb(10, 10, 10);
+}
+
 header {
     height: 100px;
     background-color: black;
+}
+
+main h1 {
+    text-align: center;
+    color: white;
 }
 main div {
     background-color: rgb(22, 22, 22);
     height: 150px;
     border: 1px solid white;
+}
+
+main div#socrates {
+    background-image: url(../imagens/socrates.jpg);
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main div#platao {
+    background-image: url(../imagens/platao.jpg);
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main div#aristoteles {
+    background-image: url(../imagens/aristoteles.jpg);
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main h2 {
