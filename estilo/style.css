@@ -99,20 +99,18 @@ main h2 {
 footer {
     background-color: black;
     color: white;
-    margin-top: 50px;
-    padding: 10px;
+    height: 70px;
+    margin-top: 40px;
 }
 
-footer > p {
-    text-align: center;
-}
-
-footer > p > a {
+footer a {
     text-decoration: none;
-    color: white;
-    font-weight: bold;
 }
 
-footer > p > a:hover {
-    text-decoration: underline;
+footer img#logo-footer {
+    height: 40px;
+}
+
+footer img.icon {
+    height: 30px;
 }
